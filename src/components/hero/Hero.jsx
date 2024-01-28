@@ -51,6 +51,9 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Web developer and UI/UX designer
           </motion.h1>
+          <motion.h3 variants={textVariants}>
+            I am passionate about creating delightful and satisfying projects
+          </motion.h3>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants}>
               See the Latest Works
