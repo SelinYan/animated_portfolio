@@ -1,0 +1,47 @@
+.about-me{
+    background: linear-gradient(180deg,#0c0c1d,#111132);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .textContainer{
+        flex: 1;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+        p{
+            font-weight: 200;
+            font-size: 20px;
+            color: #b9faf8;
+            text-align: right;
+        }
+
+        hr{
+            width: 300px;
+            border: none;
+            border-top: 0.5px solid #b9faf8;
+        }
+    }
+
+
+    .titleContainer{
+        flex: 3;
+        display: flex;
+        flex-direction: row;
+
+        img{
+            width: 250px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+
+
+    .listContainer{
+        flex: 3;
+    }
+
+}

@@ -11,7 +11,7 @@ const Navbar = () => {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}>
-          <img src="/public/logo.png" alt="logo" />
+          <img src="/logo.png" alt="logo" />
         </motion.span>
         <div className="social">
           <a href="#">
