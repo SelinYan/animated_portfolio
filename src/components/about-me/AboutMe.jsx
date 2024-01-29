@@ -24,7 +24,8 @@ const AboutMe = () => {
       <motion.div
         variants={variants}
         initial="initial"
-        animate="animate"
+        //   animate="animate"
+        whileInView="animate"
         className="textContainer">
         <p>I am passionate about creating delightful and satisfying projects</p>
         <hr />
@@ -32,13 +33,16 @@ const AboutMe = () => {
       <motion.div
         variants={variants}
         initial="initial"
-        animate="animate"
+        //   animate="animate"
+        whileInView="animate"
         className="titleContainer">
         <div className="title">
           <img src="/about-me.png" alt="about-me" />
         </div>
         <div className="title">
-          <button>ABOUT ME</button>
+          <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>
+            ABOUT ME
+          </motion.button>
           <ul>
             <div className="feature">
               <img src="work.png" alt="work" />

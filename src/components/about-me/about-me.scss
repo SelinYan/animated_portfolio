@@ -64,16 +64,17 @@
                 display: flex;
                 flex-direction: row;
                 gap: 5px;;
+                align-items: center;
 
                 img{
-                    max-height: 50px;
-                    max-width: 50px;
+                    max-height: 40px;
+                    max-width: 40px;
                     height: auto;
                 }
 
                 li{
-                    font-size: 20px;
-                    padding: 10px;
+                    font-size: 16px;
+                    padding: 5px;
                     font-weight: 200;
                 }   
 

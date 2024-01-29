@@ -1,10 +1,44 @@
 import "./skills.scss";
+import { motion } from "framer-motion";
+
+const variants = {
+  initial: {
+    x: -500,
+    y: 100,
+    opacity: 0,
+  },
+  animate: {
+    x: 0,
+    opacity: 1,
+    y: 0,
+    transition: {
+      duration: 1,
+      staggerChildren: 0.1,
+    },
+  },
+};
 
 const Skills = () => {
   return (
     <div className="skills">
-      <motion.div className="listContainer">
-        <button>MY SKILLS</button>
+      <motion.div
+        variants={variants}
+        initial="initial"
+        //  animate="animate"
+        whileInView="animate"
+        className="textContainer">
+        <p>I am passionate about creating delightful and satisfying projects</p>
+        <hr />
+      </motion.div>
+      <motion.div
+        variants={variants}
+        initial="initial"
+        // animate="animate"
+        whileInView="animate"
+        className="listContainer">
+        <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>
+          MY SKILLS
+        </motion.button>
         <div className="boxes">
           <div className="box">
             <h3>Front-end</h3>

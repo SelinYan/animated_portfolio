@@ -3,6 +3,7 @@ import AboutMe from "./components/about-me/AboutMe";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
+import Skills from "./components/skills/Skills";
 
 const App = () => {
   return (
@@ -16,6 +17,9 @@ const App = () => {
       </section>
       <section>
         <AboutMe />
+      </section>
+      <section>
+        <Skills />
       </section>
       <section id="Latest-Works">
         <Parallax type="latest-works" />
