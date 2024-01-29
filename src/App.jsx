@@ -4,6 +4,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/skills/Skills";
+import Project from "./components/project/Project";
 
 const App = () => {
   return (
@@ -24,9 +25,7 @@ const App = () => {
       <section id="Latest-Works">
         <Parallax type="latest-works" />
       </section>
-      <section>Project1</section>
-      <section>Project2</section>
-      <section>Project3</section>
+      <Project />
       <section id="Contact">Contact</section>
     </div>
   );

@@ -51,8 +51,8 @@
 
 
         .box{
-            padding: 50px;
-            max-width: 250px;
+            padding: 10px;
+            width: 250px;
             border: #b9faf8 solid 0.5px;
 
             h3{
@@ -63,9 +63,12 @@
 
             img{
                 height: 100%;
-                width: 40px;
-                height: 40px;
+                width: 50px;
+                height: 50px;
                 object-fit: cover;
+                align-self: center;
+                justify-content: center;
+                padding: 5px;
             }
         }
     }
