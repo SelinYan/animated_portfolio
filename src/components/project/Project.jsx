@@ -41,18 +41,16 @@ const Single = ({ item }) => {
   return (
     <section ref={ref}>
       <div className="container">
-        <div className="wrapper">
-          <div className="imgContainer">
-            <img src={item.img} alt="" />
-          </div>
-          <motion.div className="textContainer" style={{ y }}>
-            <h2>{item.title}</h2>
-            <p>{item.desc}</p>
-            <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>
-              See Demo
-            </motion.button>
-          </motion.div>
+        <div className="imgContainer">
+          <img src={item.img} alt="" />
         </div>
+        <motion.div className="textContainer">
+          <h2>{item.title}</h2>
+          <p>{item.desc}</p>
+          <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>
+            See Demo
+          </motion.button>
+        </motion.div>
       </div>
     </section>
   );
