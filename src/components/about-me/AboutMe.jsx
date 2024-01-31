@@ -37,7 +37,7 @@ const AboutMe = () => {
         whileInView="animate"
         className="titleContainer">
         <div className="title">
-          <img src="/about-me.png" alt="about-me" />
+          <img src="../../../public/about-me.png" alt="about-me" />
         </div>
         <div className="title">
           <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>

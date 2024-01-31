@@ -11,14 +11,14 @@ const Navbar = () => {
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 2 }}
           transition={{ duration: 0.5 }}>
-          <img src="/logo.png" alt="logo" />
+          <img src="../../../public/logo.png" alt="logo" />
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src="/github.png" alt="" />
+            <img src="../../../public/github.png" alt="" />
           </a>
           <a href="#">
-            <img src="/instagram.png" alt="" />
+            <img src="../../../public/instagram.png" alt="" />
           </a>
         </div>
       </div>
