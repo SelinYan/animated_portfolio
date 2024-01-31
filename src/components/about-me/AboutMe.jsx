@@ -1,5 +1,6 @@
 import "./about-me.scss";
 import { motion } from "framer-motion";
+import aboutme from "../../../public/about-me.png";
 
 const variants = {
   initial: {
@@ -37,7 +38,7 @@ const AboutMe = () => {
         whileInView="animate"
         className="titleContainer">
         <div className="title">
-          <img src="../../../public/about-me.png" alt="about-me" />
+          <img src={aboutme} alt="about-me" />
         </div>
         <div className="title">
           <motion.button whileHover={{ backgroundColor: "#6f2dbd" }}>

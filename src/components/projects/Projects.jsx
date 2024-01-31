@@ -1,30 +1,34 @@
 import { useRef } from "react";
 import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
+import project1 from "../../../public/project1.png";
+import project2 from "../../../public/project2.png";
+import project3 from "../../../public/project3.png";
+import project4 from "../../../public/project4.png";
 
 const items = [
   {
     id: 1,
     title: "Zoo App",
-    img: "../../../public/project1.png",
+    img: { project1 },
     desc: "Zoo App is designed to provide users with a seamless and engaging experience as they explore the diverse world of animals and birds",
   },
   {
     id: 2,
     title: "Chat-Chat App",
-    img: "../../../public/project2.png",
+    img: { project2 },
     desc: "Chat-Chat App is social networking application, which has diffierent features such as profile, timeline, friends, groups etc to build better connection for users",
   },
   {
     id: 3,
     title: "Pokedex App",
-    img: "../../../public/project3.png",
+    img: { project3 },
     desc: "Pokedex App enables users to explore a comprehensive database of Pokemon species, generations, their characteristics and abilities, by fetching Pokemon API data",
   },
   {
     id: 4,
     title: "Speed Game App",
-    img: "../../../public/project4.png",
+    img: { project4 },
     desc: "Speed Game App allowes users to input their names and choose different level to play the game, also has a conditional message based on their performance",
   },
 ];

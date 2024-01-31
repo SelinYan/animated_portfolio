@@ -1,6 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
-import { Link as ScrollLink } from "react-scroll";
+import hero from "../../../public/hero.png";
 
 const textVariants = {
   initial: {
@@ -72,7 +72,7 @@ const Hero = () => {
       </motion.div>
       <div className="imageContainer">
         <img
-          src="hero.png"
+          src={hero}
           alt="hero-image
         "
         />
