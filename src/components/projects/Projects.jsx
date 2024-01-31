@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import "./project.scss";
+import "./projects.scss";
 import { motion, useScroll, useSpring, useTransform } from "framer-motion";
 
 const items = [
@@ -56,7 +56,7 @@ const Single = ({ item }) => {
   );
 };
 
-const Project = () => {
+const Projects = () => {
   const ref = useRef();
 
   const { scrollYProgress } = useScroll({
@@ -82,4 +82,4 @@ const Project = () => {
   );
 };
 
-export default Project;
+export default Projects;

@@ -4,8 +4,9 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/skills/Skills";
-import Project from "./components/project/Project";
+import Project from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
+import Projects from "./components/projects/Projects";
 
 const App = () => {
   return (
@@ -17,16 +18,16 @@ const App = () => {
       <section id="Hello-World">
         <Parallax type="hello-world" />
       </section>
-      <section>
+      <section id="About me">
         <AboutMe />
       </section>
-      <section>
+      <section id="Skills">
         <Skills />
       </section>
-      <section id="Latest-Works">
+      <section id="Projects">
         <Parallax type="latest-works" />
       </section>
-      <Project />
+      <Projects />
       <section id="Contact">
         <Contact />
       </section>
