@@ -1,5 +1,6 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import { Link as ScrollLink } from "react-scroll";
 
 const textVariants = {
   initial: {
@@ -51,12 +52,9 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>
             Web developer and UI/UX designer
           </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-              See the Latest Works
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
-          </motion.div>
+          <motion.p>
+            I am passionate about creating delightful and satisfying projects
+          </motion.p>
           <motion.img
             variants={textVariants}
             animate="scrollButton"
