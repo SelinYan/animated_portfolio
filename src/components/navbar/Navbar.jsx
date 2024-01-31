@@ -1,6 +1,7 @@
 import "./navbar.scss";
 import { motion } from "framer-motion";
 import Sidebar from "../sidebar/Sidebar";
+import logo from "./logo.png";
 
 const Navbar = () => {
   return (
@@ -11,7 +12,7 @@ const Navbar = () => {
           initial={{ opacity: 0, scale: 1 }}
           animate={{ opacity: 1, scale: 2 }}
           transition={{ duration: 0.5 }}>
-          <img src="animated_portfolio/logo.png" alt="logo" />
+          <img src={logo} alt="logo" />
         </motion.span>
         <div className="social">
           <a href="#">
