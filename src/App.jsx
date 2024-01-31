@@ -4,9 +4,8 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Skills from "./components/skills/Skills";
-import Project from "./components/projects/Projects";
-import Contact from "./components/contact/Contact";
 import Projects from "./components/projects/Projects";
+import Contact from "./components/contact/Contact";
 
 const App = () => {
   return (
