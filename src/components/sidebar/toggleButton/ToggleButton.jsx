@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 
 const ToggleButton = ({ setOpen }) => {
-  // only the 1st/2nd motion is working, other 2 not working
   return (
     <button onClick={() => setOpen((prev) => !prev)}>
       <svg width="23" height="23" viewBox="0 0 23 23">

@@ -8,17 +8,46 @@
     gap: 50px;
 
     .textContainer{
+        padding-left: 150px;
         flex: 1;
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 30px;
 
         h1{
             font-size: 68px;
+            line-height: 60px;
+        }
+
+        span{
+            font-weight: 300;
         }
     }
 
     .formContainer{
+        padding-right: 150px;
         flex: 1;
+        
+        form{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+            input, textarea{
+            padding: 20px;
+            background-color: transparent;
+            border: 1px solid #b9faf8;
+            color: white;
+            border-radius: 5px;
+            }
+
+            button{
+                padding: 20px;
+                border: none;
+                background-color: #a663cc;
+                cursor: pointer;
+                font-weight: 500;
+            }
+        }
     }
 }
