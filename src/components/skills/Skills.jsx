@@ -106,6 +106,10 @@ const Skills = () => {
               <img src={aws} alt="aws" />
             </div>
           </div>
+          <div className="box">
+            <h3>my hobbies</h3>
+            <div className="icons"></div>
+          </div>
         </div>
       </motion.div>
     </div>

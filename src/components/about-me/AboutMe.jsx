@@ -46,12 +46,12 @@ const AboutMe = () => {
           </motion.button>
           <ul>
             <div className="feature">
-              <img src="work.png" alt="work" />
-              <li>8 years+ of experience in customer service</li>
-            </div>
-            <div className="feature">
               <img src="school.png" alt="school" />
               <li>Full Stack Web Developer program - present</li>
+            </div>
+            <div className="feature">
+              <img src="work.png" alt="work" />
+              <li>8 years+ of experience in customer service</li>
             </div>
             <div className="feature">
               <img src="degree.png" alt="degree" />

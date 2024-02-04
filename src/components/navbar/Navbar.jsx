@@ -4,6 +4,7 @@ import Sidebar from "../sidebar/Sidebar";
 import logo from "../../../public/logo.png";
 import github from "../../../public/github.png";
 import instagram from "../../../public/instagram.png";
+import linkedin from "../../../public/linkedin.png";
 
 const Navbar = () => {
   return (
@@ -18,10 +19,13 @@ const Navbar = () => {
         </motion.span>
         <div className="social">
           <a href="#">
-            <img src={github} alt="" />
+            <img src={github} alt="github" />
           </a>
           <a href="#">
-            <img src={instagram} alt="" />
+            <img src={linkedin} alt="linkedin" />
+          </a>
+          <a href="#">
+            <img src={instagram} alt="instagram" />
           </a>
         </div>
       </div>

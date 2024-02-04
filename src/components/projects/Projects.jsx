@@ -10,25 +10,25 @@ const items = [
   {
     id: 1,
     title: "Zoo App",
-    img: "{ project1 }",
+    img: project1,
     desc: "Zoo App is designed to provide users with a seamless and engaging experience as they explore the diverse world of animals and birds",
   },
   {
     id: 2,
     title: "Chat-Chat App",
-    img: "{ project2 }",
+    img: project2,
     desc: "Chat-Chat App is social networking application, which has diffierent features such as profile, timeline, friends, groups etc to build better connection for users",
   },
   {
     id: 3,
     title: "Pokedex App",
-    img: "{ project3 }",
+    img: project3,
     desc: "Pokedex App enables users to explore a comprehensive database of Pokemon species, generations, their characteristics and abilities, by fetching Pokemon API data",
   },
   {
     id: 4,
     title: "Speed Game App",
-    img: "{ project4 }",
+    img: project4,
     desc: "Speed Game App allowes users to input their names and choose different level to play the game, also has a conditional message based on their performance",
   },
 ];
