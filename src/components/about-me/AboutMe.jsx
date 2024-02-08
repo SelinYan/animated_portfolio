@@ -4,7 +4,8 @@ import aboutme from "../../../public/about-me.png";
 
 const variants = {
   initial: {
-    x: -500,
+    // x: -500,
+    x: 0,
     y: 100,
     opacity: 0,
   },

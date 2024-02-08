@@ -18,13 +18,22 @@ const Navbar = () => {
           <img src={logo} alt="logo" />
         </motion.span>
         <div className="social">
-          <a href="#">
+          <a
+            href="https://github.com/SelinYan"
+            target="_blank"
+            rel="noopener noreferrer">
             <img src={github} alt="github" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.linkedin.com/in/wen-yan-10a341292/"
+            target="_blank"
+            rel="noopener noreferrer">
             <img src={linkedin} alt="linkedin" />
           </a>
-          <a href="#">
+          <a
+            href="https://www.instagram.com/selinyan2016/?igsh=NXgxeWVrcmhqdWtl&utm_source=qr"
+            target="_blank"
+            rel="noopener noreferrer">
             <img src={instagram} alt="instagram" />
           </a>
         </div>

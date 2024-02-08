@@ -26,7 +26,8 @@ import aws from "../../../public/aws.png";
 
 const variants = {
   initial: {
-    x: -500,
+    // x: -500,
+    x: 0,
     y: 100,
     opacity: 0,
   },
@@ -105,10 +106,6 @@ const Skills = () => {
               <img src={trello} alt="trello" />
               <img src={aws} alt="aws" />
             </div>
-          </div>
-          <div className="box">
-            <h3>my hobbies</h3>
-            <div className="icons"></div>
           </div>
         </div>
       </motion.div>

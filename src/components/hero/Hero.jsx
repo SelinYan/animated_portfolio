@@ -64,6 +64,7 @@ const Hero = () => {
           />
         </motion.div>
       </div>
+
       <motion.div
         className="slidingTextContainer"
         variants={slideVariants}
@@ -71,12 +72,9 @@ const Hero = () => {
         animate="animate">
         Web Developer and UI/UX designer
       </motion.div>
+
       <div className="imageContainer">
-        <img
-          src={hero}
-          alt="hero-image
-        "
-        />
+        <img src={hero} alt="hero-image" />
       </div>
     </div>
   );
