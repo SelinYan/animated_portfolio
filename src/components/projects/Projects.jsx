@@ -6,6 +6,7 @@ import project2 from "../../../public/project2.png";
 import project3 from "../../../public/project3.png";
 import project4 from "../../../public/project4.png";
 import project5 from "../../../public/project5.png";
+import project6 from "../../../public/project6.png";
 
 const items = [
   {
@@ -41,6 +42,13 @@ const items = [
     img: project5,
     desc: "Freelance work for a local restaurant to design, create and manage its website using Wordpress",
     link: "https://mashiro.fi/",
+  },
+  {
+    id: 6,
+    title: "Self UI Design pratice",
+    img: project6,
+    desc: "UI Wireframing design pratice with instagram example using Figma",
+    link: "https://www.figma.com/file/hMJOKrDfCTzJvvMlFOplnv/Instagram-UI-wireframe-pratice?type=design&node-id=0%3A1&mode=design&t=9CoJAQym0JLr1GGy-1",
   },
 ];
 
