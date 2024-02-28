@@ -5,6 +5,7 @@ import project1 from "../../../public/project1.png";
 import project2 from "../../../public/project2.png";
 import project3 from "../../../public/project3.png";
 import project4 from "../../../public/project4.png";
+import project5 from "../../../public/project5.png";
 
 const items = [
   {
@@ -33,6 +34,13 @@ const items = [
     img: project4,
     desc: "Speed Game App allowes users to input their names and choose different level to play the game, also has a conditional message based on their performance",
     link: "https://selinyan.github.io/NewSpeedGame/",
+  },
+  {
+    id: 5,
+    title: "Freelance work",
+    img: project5,
+    desc: "Freelance work for a local restaurant to design, create and manage its website using Wordpress",
+    link: "https://mashiro.fi/",
   },
 ];
 
