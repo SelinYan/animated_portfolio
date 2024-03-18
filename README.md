@@ -2,6 +2,10 @@
 
 Welcome to my portfolio! This portfolio showcases my work and skills as a web developer and UI/UX designer.
 
+## Live page
+
+https://selinyan.github.io/animated_portfolio/
+
 ## Table of Contents
 
 - [Homepage](#Homepage)
